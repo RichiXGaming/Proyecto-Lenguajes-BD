@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Proyecto_Lenguajes_BD
+namespace Proyecto_Lenguajes_BD.Pantallas
 {
-    public partial class Form1 : Form
+    public partial class MasInfo : Form
     {
-        public Form1()
+        public MasInfo()
         {
             InitializeComponent();
+        }
+
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
